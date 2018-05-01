@@ -1,0 +1,126 @@
+.script {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.code {
+  padding: 1em 0;
+  background: #282828;
+  font-family: "operator mono", menlo, monaco, monospace;
+  line-height: 2;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 12px;
+}
+.code p {
+  padding: 0 2.5em;
+  margin-bottom: 0;
+}
+.code p:nth-child(1) {
+  -webkit-animation: step 2.5s -0.625s infinite;
+          animation: step 2.5s -0.625s infinite;
+}
+.code p:nth-child(2) {
+  -webkit-animation: step 2.5s 0s infinite;
+          animation: step 2.5s 0s infinite;
+}
+.code p:nth-child(3) {
+  -webkit-animation: step 2.5s 0.625s infinite;
+          animation: step 2.5s 0.625s infinite;
+}
+.code p:nth-child(4) {
+  -webkit-animation: step 2.5s 1.25s infinite;
+          animation: step 2.5s 1.25s infinite;
+}
+.code p:nth-child(5) {
+  -webkit-animation: step 2.5s 1.875s infinite;
+          animation: step 2.5s 1.875s infinite;
+}
+
+@-webkit-keyframes step {
+  from, 37%, 63%, to {
+    background: transparent;
+    color: #fff;
+  }
+  37.1%, 62.9% {
+    background: #004466;
+    color: #fff;
+  }
+}
+
+@keyframes step {
+  from, 37%, 63%, to {
+    background: transparent;
+    color: #fff;
+  }
+  37.1%, 62.9% {
+    background: #004466;
+    color: #fff;
+  }
+}
+/* //BLUE THEME
+body {background: #282828;}
+.code {
+  background: #004466;
+  color: #fff;
+}
+
+@keyframes step {
+  from, 37%, 63%, to {
+    background: transparent;
+    color: #ccc;
+  }
+  37.1%, 62.9% {
+    background: #ccc;
+    color: #333;
+  }
+}*/
+/* //GREY THEME
+body {background: #aaa;}
+.code {  background: #ccc;
+  color: #333;
+}
+@keyframes step {
+  from, 37%, 63%, to {
+    background: transparent;
+    color: #333;
+  }
+  37.1%, 62.9% {
+    background: #004466;
+    color: #fff;
+  }
+}
+*/
+/* GREY THEME V2
+body {background: #333;}
+.code {background: #ccc;
+  color: #333;
+}
+@keyframes step {
+  from, 37%, 63%, to {
+    background: transparent;
+    color: #333;
+  }
+  37.1%, 62.9% {
+    background: #004466;
+    color: #fff;
+  }
+}*/
+/* LITE THEME
+body {background: #fff;}
+.code {
+  background: #f5f5f5;
+  color: #333;
+}
+
+@keyframes step {
+  from, 37%, 63%, to {
+    background: transparent;
+    color: #333;
+  }
+  37.1%, 62.9% {
+    background: #00aadd;
+    color: #fff;
+  }
+}*/

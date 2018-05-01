@@ -1,0 +1,58 @@
+.app__header {
+  position: relative;
+  color: #ffffff;
+  box-shadow: 0 4px 11px rgba(124, 146, 169, 0.5);
+  width: 100%; }
+
+.app__header__inner {
+  padding: 66px 0 0 0;
+  position: relative;
+  z-index: 3; }
+
+.app__header__content {
+  -js-display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32pt 0;
+  overflow: auto; }
+  .app__header__content__inner {
+    width: 100%;
+    max-width: 66ch;
+    text-align: center; }
+
+/*--- CONTENT STYLING ---*/
+.app__header__title {
+  color: inherit;
+  margin-bottom: 1.25em; }
+
+.app__header__text {
+  opacity: 0.85;
+  line-height: 1.7;
+  text-align: left; }
+
+.app {
+  padding: calc( 81.33333px) 0; }
+
+@media (min-width: 992px) {
+  .app__inner {
+    -js-display: flex;
+    display: flex; } }
+
+.app__menu {
+  width: 100%;
+  position: relative; }
+  @media (min-width: 992px) {
+    .app__menu {
+      display: block;
+      width: 300px;
+      flex-shrink: 0; } }
+
+.app__main {
+  flex-grow: 1; }
+
+.app__main__title {
+  margin-top: 0.75em; }
+
+.app__image {
+  max-width: 100%; }

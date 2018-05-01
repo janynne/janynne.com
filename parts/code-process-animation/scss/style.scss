@@ -1,0 +1,113 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ccc;
+}
+
+.code {
+  padding: 1.25em 0;
+  font-size: 5vmin;
+  background: #282828;
+  font-family: "operator mono", menlo, monaco, monospace;
+  line-height: 1.6;
+  color: #fff;
+  border-radius: 7px;
+
+  p {
+    padding: 0 2.5em;
+    $lines: 4;
+    $duration: 2.5s;
+
+    @for $i from 0 through $lines {
+      &:nth-child(#{$i + 1}) {
+        animation:
+          step
+          $duration
+          $duration / $lines * $i - $duration / $lines
+          infinite;
+      }
+    }
+  }
+}
+
+@keyframes step {
+  from, 37%, 63%, to {
+    background: transparent;
+    color: #fff;
+  }
+  37.1%, 62.9% {
+    background: #004466;
+    color: #fff;
+  }
+}
+
+/* //BLUE THEME
+body {background: #282828;}
+.code {
+  background: #004466;
+  color: #fff;
+}
+
+@keyframes step {
+  from, 37%, 63%, to {
+    background: transparent;
+    color: #ccc;
+  }
+  37.1%, 62.9% {
+    background: #ccc;
+    color: #333;
+  }
+}*/
+
+/* //GREY THEME
+body {background: #aaa;}
+.code {  background: #ccc;
+  color: #333;
+}
+@keyframes step {
+  from, 37%, 63%, to {
+    background: transparent;
+    color: #333;
+  }
+  37.1%, 62.9% {
+    background: #004466;
+    color: #fff;
+  }
+}
+*/
+
+/* GREY THEME V2
+body {background: #333;}
+.code {background: #ccc;
+  color: #333;
+}
+@keyframes step {
+  from, 37%, 63%, to {
+    background: transparent;
+    color: #333;
+  }
+  37.1%, 62.9% {
+    background: #004466;
+    color: #fff;
+  }
+}*/
+
+/* LITE THEME
+body {background: #fff;}
+.code {
+  background: #f5f5f5;
+  color: #333;
+}
+
+@keyframes step {
+  from, 37%, 63%, to {
+    background: transparent;
+    color: #333;
+  }
+  37.1%, 62.9% {
+    background: #00aadd;
+    color: #fff;
+  }
+}*/

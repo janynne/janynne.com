@@ -1,0 +1,24 @@
+.cta {
+  background: linear-gradient(to right, #6C63FF, #4641FF);
+  color: #fff;
+  padding: 48pt 0;
+  text-align: center; }
+
+.cta--reverse {
+  background: linear-gradient(to left, #6C63FF, #4641FF); }
+
+.cta--plain {
+  background: #6C63FF; }
+
+.cta--secondary {
+  background: #4641FF; }
+
+.cta__title {
+  color: inherit; }
+
+.cta__sub {
+  opacity: 0.85;
+  max-width: 58ch;
+  margin: 16pt auto 24pt auto; }
+  .cta__sub--center {
+    text-align: center; }

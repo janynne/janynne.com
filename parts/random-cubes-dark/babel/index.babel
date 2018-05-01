@@ -1,0 +1,40 @@
+var rn = (min, max) => Math.floor(Math.random()*(max-min+1)+min) // inclusive by +1
+
+class Root extends React.Component {
+  render() {
+    return (
+      <div className="container">
+        {Array(6).fill().map((x,i) => <Cube to={i*50} key={i} />)}
+      </div>
+    )
+  }
+}
+
+class Cube extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { a:[-30,30,0,0,0,-500], to:props.to }
+  }
+
+  componentDidMount() {
+    var d = 180;
+    setTimeout(() => {
+      setInterval(() => {
+        var hw = window.innerWidth/2, hh = window.innerHeight/2
+        this.setState({a:[rn(-d,d),rn(-d,d),rn(-d,d),rn(-hw,hw),rn(-hh,hh),rn(-3000,-500)]})
+      }, 1000)
+    }, this.state.to)
+  }
+
+  render() {
+    var a = this.state.a,
+        cubeStyle = { transform: `translate3d(${a[3]}px, ${a[4]}px, ${a[5]}px) rotateX(${a[0]}deg) rotateY(${a[1]}deg) rotateZ(${a[2]}deg)` }
+    return (
+      <div className="cube" style={cubeStyle}>
+        {Array(6).fill().map(() => <figure />)}
+      </div>
+    )
+  }
+}
+
+ReactDOM.render(<Root />, document.getElementById('root'))
