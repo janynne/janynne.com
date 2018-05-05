@@ -415,9 +415,11 @@ select {
   border-bottom: 2px solid #eee; }
 
 .landing__section {
-  padding: 24pt 0; }
+  padding: 24pt 0; 
+  text-align: center;
+}
 
-.landing__section:nth-child(odd) {
+.landing__section:nth-child(even) {
   background-color: #f7f7f7;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee; }

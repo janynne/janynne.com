@@ -14,8 +14,17 @@
   .navbar--extended .navbar__inner {
     height: 60px;
     color: #ffffff; 
+    width: 100%;
 }
 ::selection{
   background: #0077c1;
   color: #fff;
+}
+
+.img{
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
 }

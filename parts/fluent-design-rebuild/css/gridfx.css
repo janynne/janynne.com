@@ -29,6 +29,7 @@ html, body {
 .grid > a {
   position: relative;
   transform-style: preserve-3d;
+  margin: 0px 5px 0px 5px;
 }
 .grid > a:hover {cursor: pointer;}
 .grid > a:hover .title:after {
@@ -37,6 +38,12 @@ html, body {
 .grid > a .img {
   width: 100%;
   position: relative;
+  max-width: 360px;
+  margin: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 200px;
+  padding: 0;
 }
 .grid > a .img > span {z-index: 2;}
 .grid > a .img > span ~ img {
