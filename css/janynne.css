@@ -21,6 +21,10 @@
   color: #fff;
 }
 
+.block{
+  display: block !important;
+}
+
 .img{
   -webkit-user-drag: none;
   -khtml-user-drag: none;
