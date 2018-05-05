@@ -5,9 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Janynne Rocha</title>
 
+	<!-- external -->
 	<link rel="stylesheet" href="parts/bootstrap-4.1.0-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
+	<!---->
 	<link rel='stylesheet' href='css/general.css' />
 	<link rel='stylesheet' href='css/components.css' />
 	<link rel='stylesheet' href='css/header.css' />
@@ -19,16 +21,18 @@
 	<link rel='stylesheet' href='css/app.css' />
 	<link rel='stylesheet' href='css/vmenu.css' />
 
-	<link rel="stylesheet" href="parts/code-process-animation/css/code.css">
+	<!-- parts -->
+    <link rel="stylesheet" href="parts/code-process-animation/css/code.css">
 	<link rel="stylesheet" href="parts/fluent-design-rebuild/css/gridfx.css">
 
+	<!-- replace over code -->
 	<link rel='stylesheet' href='css/janynne.css' />
 </head>
 <body>
-	<!-- Hero(extended) navbar -->
+	<!-- navbar -->
 	<div class="navbar navbar--extended">
 		<nav class="nav__mobile"></nav>
-		<div class="container block">
+		<div class="container">
 			<div class="navbar__inner">
 				<a href="index.html" class="navbar__logo">Janynne</a>
 				<nav class="navbar__menu">
@@ -42,9 +46,8 @@
 			</div>
 		</div>
 	</div>
-	<!--<div id="root"></div>-->
 
-	<!-- Hero unit -->
+	<!-- main banner -->
 	<div class="hero">
 		<iframe class="hero hero__mask hero__overlay hero__overlay--gradient" src="parts/random-cubes-dark/index.html"></iframe>
 		<div class="hero__overlay hero__overlay--gradient"></div>
@@ -62,13 +65,13 @@
 			</div>
 		</div>
 		<div class="hero__sub">
-			<div id="scrollToNext" class="scroll" data-speed="1000" href="#first">
+			<span id="scrollToNext" class="scroll">
 				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class='hero__sub__down' fill="currentColor" width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z"/></svg>
-			</div>
+			</span>
 		</div>
 	</div>
 
-	<div id="first" class="landing__section">
+	<div class="landing__section">
 		<div class="container">
 			<h2>Do you see any Teletubbies in here?</h2>
 			<p>No man, I don't eat pork</p>
@@ -134,8 +137,8 @@
 					<img src="./images/undraw_browser1.png" class="expanded__image">
 				</div>
 				<div class="expanded__content">
-					<h2 class="expanded__title">So, you cold?</h2>
-					<p class="expanded__text">Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
+					<h2 class="expanded__title">Natural styling with almost nothing to learn</h2>
+					<p class="expanded__text">Brings you the pages you'll need and the structure, without a learning curve. It is minimal and mostly styles plain elements.</p>
 				</div>
 			</div>
 		</div>
@@ -147,8 +150,8 @@
 					<img src="./images/undraw_frameworks.png" class="expanded__image">
 				</div>
 				<div class="expanded__content">
-					<h2 class="expanded__title">Hold on to your butts</h2>
-					<p class="expanded__text">Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'?</p>
+					<h2 class="expanded__title">Framework agnostic. Your front-end setup, your choice.</h2>
+					<p class="expanded__text">Zero dependencies with vanilla JavaScript for a few functions with minimal footprint. We can use React, Vue, Angular, jQuery or whatever you prefer.</p>
 				</div>
 			</div>
 		</div>
@@ -160,8 +163,8 @@
 					<img src="./images/together.svg" class="expanded__image">
 				</div>
 				<div class="expanded__content">
-					<h2 class="expanded__title">No man, I don't eat pork</h2>
-					<p class="expanded__text">Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.</p>
+					<h2 class="expanded__title">Ready for production or rapid prototyping</h2>
+					<p class="expanded__text">Creating landing, authentication and a few other pages to select from. Tested on production with amazing speeds and prepared to structure your project. You'll find it awesome and useful!</p>
 				</div>
 			</div>
 		</div>
@@ -203,7 +206,7 @@
 					<div class="footer__row">
 						<a href="#" target="_blank" class="footer__link">Twitter</a>
 					</div>
-					<div id="fb" class="footer__row">
+					<div class="footer__row">
 						<a href="#" target="_blank" class="footer__link">Facebook</a>
 					</div>
 				</div>
@@ -212,6 +215,6 @@
 	</div>
 
 <script src='parts/code-process-animation/js/code.js'></script>
-<script src='js/app.js'></script>
+<script src='js/app.min.js'></script>
 </body>
 </html>
