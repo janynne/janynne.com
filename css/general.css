@@ -1,12 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400");
-
 html {
   /*Correct the line height in all browsers.*/
   line-height: 1.15;
   /*Prevent adjustments of font size after orientation changes in iOS.*/
   -webkit-text-size-adjust: 100%;
   }
-
 /* Sections ================================================================= */
 /*Remove the margin in all browsers.*/
 body {margin: 0;}
@@ -29,11 +26,9 @@ pre {
   /*Correct the odd `em` font sizing in all browsers.*/
   font-size: 1em;
 }
-
 /* Text-level semantics ==================================================== */
 /*Remove the gray background on active links in IE 10.*/
 a {background-color: transparent;}
-
 abbr[title] {
   /*Remove the bottom border in Chrome 57-*/
   border-bottom: none;
@@ -43,17 +38,14 @@ abbr[title] {
 }
 /*Add the correct font weight in Chrome, Edge, and Safari.*/
 b, strong {font-weight: bolder;}
-
 code, kbd, samp {
   /*Correct the inheritance and scaling of font size in all browsers.*/
   font-family: monospace, monospace;
   /*Correct the odd `em` font sizing in all browsers.*/
   font-size: 1em;
 }
-
 /*Add the correct font size in all browsers.*/
 small {font-size: 80%;}
-
 /*Prevent `sub` and `sup` elements from affecting the line height in all browsers.*/
 sub, sup {
   font-size: 75%;
@@ -63,11 +55,9 @@ sub, sup {
 }
 sub {bottom: -0.25em;}
 sup {top: -0.5em;}
-
 /*Embedded content ========================================================== */
 /*Remove the border on images inside links in IE 10.*/
 img {border-style: none;}
-
 /*Forms ===================================================================== */
 button,
 input,
@@ -114,7 +104,6 @@ button:-moz-focusring,
 }
 /*Correct the padding in Firefox.*/
 fieldset {padding: 0.35em 0.75em 0.625em;}
-
 legend {
   /*Correct the text wrapping in Edge and IE.*/
   box-sizing: border-box;
@@ -127,13 +116,10 @@ legend {
   `fieldset` elements in all browsers.*/
   padding: 0;
 }
-
 /*Add the correct vertical alignment in Chrome, Firefox, and Opera.*/
 progress {vertical-align: baseline;}
-
 /*Remove the default vertical scrollbar in IE 10+.*/
 textarea {overflow: auto;}
-
 [type="checkbox"],
 [type="radio"] {
   /*Add the correct box sizing in IE 10.*/
@@ -141,7 +127,6 @@ textarea {overflow: auto;}
   /*Remove the padding in IE 10.*/
   padding: 0;
 }
-
 /*Correct the cursor style of increment and decrement buttons in Chrome.*/
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
@@ -155,24 +140,19 @@ textarea {overflow: auto;}
 }
 /*Remove the inner padding in Chrome and Safari on macOS.*/
 [type="search"]::-webkit-search-decoration {-webkit-appearance: none; }
-
 ::-webkit-file-upload-button {
   /*Correct the inability to style clickable types in iOS and Safari.*/
   -webkit-appearance: button;
   /*Change font properties to `inherit` in Safari.*/
   font: inherit;
 }
-
 /*Interactive =============================================================== */
 /*Add the correct display in Edge, IE 10+, and Firefox.*/
 details {display: block;}
-
 /*Add the correct display in all browsers.*/
 summary {display: list-item;}
-
 /*Misc ===================================================================== */
 /*Add the correct display in IE 10+.*/
 template {display: none;}
-
 /*Add the correct display in IE 10.*/
 [hidden] {display: none;}
